@@ -1,0 +1,130 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ==============================
+# Data files
+# ==============================
+assets/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Geospatial data
+# ==============================
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+*.gdb/
+*.geoparquet
+*.tif
+*.tiff
+*.vrt
+*.img
+*.jp2
+
+# ==============================
+# Machine learning artefacts
+# ==============================
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.model
+*.pkl
+
+# ==============================
+# Logs and experiment tracking
+# ==============================
+logs/
+lightning_logs/
+mlruns/
+wandb/
+tensorboard/
+runs/
+*.log
+
+# ==============================
+# Configuration and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+secrets.yml
+
+# ==============================
+# IDEs and editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ==============================
+# Testing and coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# ==============================
+# Temporary files
+# ==============================
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ==============================
+# Environment
+# ==============================
+.env
