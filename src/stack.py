@@ -36,7 +36,7 @@ class Stack():
                 self.items,
                 epsg=2193,
                 resolution=1,
-                chunksize=round(sqrt((self.chunk_size_mib * 1024 ** 2 ) / self.FLOAT64_ELEMENT_SIZE)), # Somehow, usually gets correct chunk size
+                chunksize=round(sqrt((self.chunk_size_mib * 1024 ** 2 ) / self.FLOAT64_ELEMENT_SIZE)), 
                 assets=self.assets,  
                 bounds = [self.min_x, self.min_y, self.max_x, self.max_y]
             )
